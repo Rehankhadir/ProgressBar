@@ -1,0 +1,15 @@
+.main-content {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  background-color: #007bff;
+  border: none;
+  height: 35px;
+  width: 130px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}

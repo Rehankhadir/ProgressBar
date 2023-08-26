@@ -1,0 +1,8 @@
+<app-navbar></app-navbar>
+<div class="main-content">
+  <div class="center-button" *ngIf="start">
+    <button (click)="openPopup()">Start</button>
+  </div>
+
+  <app-offcanvas-popup *ngIf="popupVisible"></app-offcanvas-popup>
+</div>
